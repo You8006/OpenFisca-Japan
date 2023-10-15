@@ -12,14 +12,15 @@
 - [他の類似サービスやRule-As-Codeの事例](./about_openfisca_japan#他の類似サービスやrule-as-codeの事例)
 
 ### [開発ドキュメント](./dev_note.md)
-- [環境構築](./dev_note.md##環境構築)
-- [開発方法](./dev_note.md##開発方法)
-- [デプロイ方法](./dev_note.md##デプロイ方法)
+- [環境構築](./dev_note.md#環境構築)
+- [開発方法](./dev_note.md#開発方法)
+- [デプロイ方法](./dev_note.md#デプロイ方法)
+- [TroubleShooting](./dev_note.md#troubleshooting)
 
 ### [チャットボット](./chat_bot.md)
 - [LINEチャットボットについて](./chat_bot.md#ラインチャットボットについて)
-- [ChatGPT_Retrieval_Pluginについて](./chat_bot.md#ChatGPT_Retrieval_Pluginについて)
-- [Google_custom_search_APIについて](./chat_bot.md#Google_custom_search_APIについて)
+- [ChatGPT_Retrieval_Pluginについて](./chat_bot.md#chatgpt_retrieval_pluginについて)
+- [Google_custom_search_APIについて](./chat_bot.md#google_custom_search_apiについて)
 - [miiboについて](./chat_bot.md#miiboについて)
 
 ### [変更履歴 (Change log)](./change_log)
