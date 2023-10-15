@@ -7,6 +7,7 @@ import { GenericError } from './components/errors/GenericError';
 import { NotFoundError } from './components/errors/NotFoundError';
 import { CurrentDateContext } from './contexts/CurrentDateContext';
 import { FormResponseError } from './components/errors/FormResponseError';
+import { usePageTracking } from './hooks/useTracking'; // ここでimport
 
 function App() {
   const currentDate = `${new Date().getFullYear()}-${(new Date().getMonth() + 1)
@@ -59,6 +60,7 @@ function App() {
             }
           )}
         />
+        usePageTracking();
       </CurrentDateContext.Provider>
     </AbsoluteCenter>
   );
